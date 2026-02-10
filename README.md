@@ -47,11 +47,12 @@ Analyzed month-over-month revenue trends broken down by insurance provider.
 * **Integrity Audits:** Conducted a "Pre-Deletion Audit" using `sys.foreign_keys` to verify system linkages before dropping redundant columns.
 
 ## 📁 Project Structure
+* **`Hospital_Management_Raw_Dataset`**: Directory containing the individual source CSV tables (Patients, Doctors, Appointments, Billing, and Treatments) used to build the relational database. Source from [Kaggle](https://www.kaggle.com/datasets/kanakbaghel/hospital-management-dataset).
 * **`Schema_Setup.sql`**: Full DDL/DML script for database creation, 3NF normalization, and constraint implementation.
-* **`Business_Analysis.sql`**: The 4 core business intelligence queries using advanced T-SQL.
+* **`Analysis_Queries.sql`**: The 4 core business intelligence queries using advanced T-SQL.
 * **`ERD_Diagram.png`**: Visual representation of the relational schema. ![Database ERD](ERD_Diagram.png)
 
 ---
 **Contact**
 * **Name:** David Aimienwanwu
-* **LinkedIn:** [www.linkedin.com/in/davidaimienwanwu](www.linkedin.com/in/davidaimienwanwu)
+* **LinkedIn:** [My Linkedin Profile](www.linkedin.com/in/davidaimienwanwu)
